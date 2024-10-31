@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+  #header .container {
+    width: 90%;
+  }
+  .header-nav nav {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .container {
+    /* max-width: 800px; */
+    margin: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-title {
+    h1 {
+      width: 350px;
+    }
+    p {
+      width: 390px;
+    }
+  }
+  .main-boxes {
+    width: 10px;
+    h1 {
+      font-size: 22px;
+    }
+  }
+}
